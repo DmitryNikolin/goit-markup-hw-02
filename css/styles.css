@@ -11,7 +11,8 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--body-bck)
+    color: var(--primary-text-color)
+    background-color: var(--menu-bck)
 }
 
 .menu-top {
@@ -85,6 +86,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--menu-bck);
+    cursor: pointer;
 }
 
 .middle-main {
@@ -176,4 +178,41 @@ h2 {
 .contacts-footer a:hover,
 .contacts-footer a:focus {
     color: var(--accent-color);
+}
+
+.filter-portfolio button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;  
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--body-bck);
+    cursor: pointer;
+}
+
+.filter-portfolio button:hover,
+.filter-portfolio button:focus {
+    color: var(--menu-bck);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.menu-portfolio h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.menu-portfolio p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-contact-color);
 }
