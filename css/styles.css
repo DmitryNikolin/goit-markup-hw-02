@@ -26,6 +26,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: var(--logo-text-color);
+    text-decoration: none;
 }
 
 .logo-web {
@@ -38,6 +39,11 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.menu-top-center li {
+    list-style-type: none;
 }
 
 .menu-top-center a:hover,
@@ -51,6 +57,11 @@ body {
     font-size: 14px;
     line-height: 1.14px;
     color: var(--primary-contact-color);
+    text-decoration: none;
+}
+
+.contacts li {
+    list-style-type: none;
 }
 
 .contacts a:hover,
@@ -112,12 +123,15 @@ body {
     color: var(--primary-contact-color);
 }
 
-h2 {
+.middle-main-list {
+    list-style-type: none;
+}
+
+.menu-item-name {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -131,7 +145,6 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var (--primary-text-color);
 }
@@ -141,9 +154,12 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-contact-color);
+}
+
+.bottom-main-list {
+    list-style-type: none;
 }
 
 .menu-footer {
@@ -165,6 +181,7 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--menu-bck);
+    text-decoration: none;
 }
 .contacts-footer a {
     font-style: normal;
@@ -173,6 +190,11 @@ h2 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-contact-color);
+    text-decoration: none;
+}
+
+.contacts-footer li {
+    list-style-type: none;
 }
 
 .contacts-footer a:hover,
@@ -181,6 +203,7 @@ h2 {
 }
 
 .filter-portfolio button{
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -199,6 +222,10 @@ h2 {
     cursor: pointer;
 }
 
+.filter-portfolio {
+    list-style-type: none;
+}
+
 .menu-portfolio h2 {
     font-style: normal;
     font-weight: 700;
@@ -215,4 +242,8 @@ h2 {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-contact-color);
+}
+
+.menu-portfolio {
+    list-style-type: none;
 }
