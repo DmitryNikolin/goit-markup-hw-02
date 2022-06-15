@@ -60,12 +60,13 @@ body {
 	list-style-type: none;
 }
 
-.current,
-.menu-item:hover,
-.menu-item:focus,
 .contacts a:hover,
 .contacts a:focus {
 	color: var(--accent-color);
+}
+
+.menu-top-center .menu-item.current {
+	color: var(--accent-color);	
 }
 
 .top-main {
